@@ -141,6 +141,38 @@ nav ul li a{
     font-size: 30px;
 }
 
+.expectation-details-3{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.expectation-item-5{
+   background-color: #9CB7EC;
+   border-radius: 10px;
+}
+
+.expectation-item-5 h3{
+    color: #36454F;
+    padding: 81px 70px;
+    font-size: 30px; 
+}
+
+.expectation-item-6{
+    background-color: #B295CF;
+    border-radius: 10px;
+}
+.expectation-item-6 h3{
+    color: #36454F;
+    padding: 100px 100px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+
+
+
 .finish-sign{
     margin-top: 60px;
 }
@@ -166,6 +198,7 @@ nav ul li a{
     margin-left: 40%;
     height: 100px;
     width: 100px;
+    margin-top: 0;
 }
 
 /* Footer Section */
