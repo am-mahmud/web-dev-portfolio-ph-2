@@ -18,6 +18,7 @@ nav ul{
     display: flex;
     gap: 10px;
     justify-content: flex-end;
+    /* margin-right: 10px; */
 }
 
 nav ul li{
@@ -87,19 +88,27 @@ nav ul li a{
     margin-top: 60px;
 }
 
-.expectation-item-1 h3{
+.expectation-item-1{
+    width: 30%;
     background-color: #8AD8C0;
+    border-radius: 10px;
+}
+
+.expectation-item-1 h3{
     color: #36454F;
     padding: 60px 70px;
-    border-radius: 10px;
     font-size: 30px; 
 }
 
-.expectation-item-2 h3{
+.expectation-item-2{
+    flex: 1;
     background-color: #C7F459;
+    border-radius: 10px;
+}
+
+.expectation-item-2 h3{
     color: #36454F;
     padding: 100px 100px;
-    border-radius: 10px;
     font-size: 30px;
 }
 
@@ -107,19 +116,25 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    margin-top: 0;
+    margin-top: 15px;
+}
+
+.expectation-item-3{
+   background-color: #F3A196;
+   border-radius: 10px;
 }
 
 .expectation-item-3 h3{
-    background-color: #F3A196;
     color: #36454F;
     padding: 81px 70px;
-    border-radius: 10px;
     font-size: 30px; 
 }
 
-.expectation-item-4 h3{
+.expectation-item-4{
     background-color: #8ECDDC;
+    border-radius: 10px;
+}
+.expectation-item-4 h3{
     color: #36454F;
     padding: 100px 100px;
     border-radius: 10px;
