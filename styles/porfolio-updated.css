@@ -121,9 +121,7 @@ nav ul li a {
   width: 100px;
 }
 
-/* ======================
-   Footer Section
-   ====================== */
+/* Footer Section */
 footer {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -149,9 +147,7 @@ footer ul li a {
   color: #36454F;
 }
 
-/* ===================================
-   RESPONSIVE DESIGN
-   =================================== */
+/* RESPONSIVE DESIGN */
 
 /* Tablet screens */
 @media screen and (max-width: 992px) {
