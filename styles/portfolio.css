@@ -225,3 +225,33 @@ footer ul li a{
     color: #36454F;
 }
 
+/* Tablet screens */
+@media screen and (max-width: 992px) {
+  .banner-intro h1 { font-size: 50px; }
+  .lit-bio h4 { margin-left: 10%; }
+  .expectation-details-1,
+  .expectation-details-2,
+  .expectation-details-3 {
+    gap: 20px;
+  }
+}
+
+/* Mobile screens */
+@media screen and (max-width: 576px) {
+  .banner-intro h1 { font-size: 30px; text-align: center; }
+  .banner-intro h3, 
+  .lit-bio h4, 
+  .finish-sign h4 { 
+    margin-left: 0; 
+    text-align: center; 
+  }
+  .expectation-details-1,
+  .expectation-details-2,
+  .expectation-details-3 {
+    flex-direction: column;
+  }
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
